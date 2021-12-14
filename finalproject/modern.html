@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Basics of Magic The Gathering" />
+<meta name="keywords" content="MTG, Magic The Gathering, Magic, TCG, Trading Card Game" />
+<link rel="stylesheet" href="css/Screen.css" media="all"/>
+<link rel="stylesheet" href="css/Print.css" media="print"/>
+<title> Magic The Gathering Basic Format Info</title>
+</head>
+<body>
+	<img src="media/magicColors.png" class="rotate respond " width="auto" height="auto" style="float:right; max-width:145px; z-index: 3" alt="the five magic colors">
+<header>
+ <h1>Modern Format</h1>
+ </header>
+<section class= "row">
+	<div id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="main.html">Main</a>
+		<a href="standard.html">Standard</a>
+		<a href="modern.html">Modern</a>
+		<a href="commander.html">Commander</a>
+		<a href="draft.html">Booster Draft</a>
+	</div>
+	<div id="main">
+	<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu </span>
+</div>
+<script>
+	function openNav(){
+		document.getElementById("mySidenav").style.width = "250px";
+		
+	}
+	function closeNav(){
+	document.getElementById("mySidenav").style.width ="0";
+	
+	}
+</script>
+</nav>
+<div class="col-6 col-m-9">
+	<article class="big">
+		<h1>The Deck</h1>
+		<article class="little">
+			<h2>Deck Size</h2>
+			<p>60 cards minimum. Unlimited deck size as long as you can shuffle it.</p>
+		</article>		<article class="little">
+			<h2>Card Sets Allowed </h2>
+			<p>All Core, Expansions 8th Edition to Current.</p>
+		</article>
+		<article class="little">
+			<h2>Duplicates</h2>
+			<p>No more than 4 copies including cards in sideboard.Excluding Basic Lands.</p>
+		</article>
+		<article class="little">
+			<h2>Sideboard</h2>
+			<p>Up to 15 cards outside of the game the player may rotate into their deck between matches.</p>
+		</article>
+	</article>
+	<article class="big">
+		<h1>The Game</h1>
+		<article class="little">
+			<h2>Players</h2>
+			<p>2</p>
+		</article>
+		<article class="little">
+			<h2>Starting Life </h2>
+			<p>20</p>
+		</article>
+		<article class="little">
+			<h2>Win Conditions</h2>
+			<p> Player's life reaches 0 they lose.</p>
+			<p> Player's deck reaches 0 cards they lose.</p>
+		</article>
+	</article>
+	
+</div>
+<aside class="col-3 col-m-12">
+	<section class="menu">
+	<nav>
+		<h2>Places to Play Magic </h2> 
+		<ul>
+		
+		<li><a href="https://locator.wizards.com/"> Local Game Store Locator</a></li>
+		<li><a href="https://spelltable.wizards.com/">Spell Table</a></li>
+		<li><a href="https://magic.wizards.com/en/mtgarena">Magic Arena</a></li>
+		
+			</ul>
+			<h2>MTG Singles & Supplies</h2> 
+			<ul>
+			
+			<li><a href="https://www.tcgplayer.com/">TCG Player</a></li>
+			<li><a href="https://www.bcwsupplies.com/blog/tag/mtg/">BCW Supplies</a></li>
+			<li><a href="https://tcwarroom.tcgplayerpro.com/">TC War Room's TCG Pro Site</a></li>
+				</ul>
+				<audio id="audio_play">
+					<source src="media/monster.wav" type="audio/wav" />
+					<source src="media/monster1.ogg" type="audio/ogg" />
+				</audio>
+				
+				<img src="media/tcwar.png" class= responsive onClick="document.getElementById('audio_play').play(); return false;" />
+				
+			</nav>
+			
+			</section>
+	 </aside>
+	 </section>
+	 
+	 <footer> <p>&copy; <cite>Photoes Retrived from https://en.wikipedia.org/wiki/Magic:_The_Gathering on 12/10, 20121</cite> Chris Meeuwes, NMC</p></footer>
+	 </body>
+	 </html>
